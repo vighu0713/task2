@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    background-color:#222e2e;
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    position: relative;
+    font-family:  'Atkinson Hyperlegible', sans-serif;
+    
+}
+.navigation .head{
+    width: 53%;
+    text-align: right;
+}
+.navigation .button{
+    width: 40%;
+    text-align: center;
+}
+.navigation .nav-head{
+    color: white;
+}
+.navigation .btn-log{
+    background-color:#222e2e;
+    color: white;
+    padding: 7px 11px;
+    font-size: 13px;
+    border: 1px solid;
+    border-radius: 6px;
+    position: relative;
+    left: 32vh;
+    cursor: pointer;
+}
+.container{
+    width: 80%;
+    height: 93vh;
+    display: flex;
+    margin: auto;
+}
+.mobile{
+    width: 25%;
+    height: 85%;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.website{
+    width: 67%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: #907dd7;
+    border-radius: 10px;
+
+}
+.website .left{
+    width: 50%;
+    height: 100%;
+}
+.website .right{
+    width: 50%;
+    height: 100%;
+    background: url("../img/desktop.png");
+    background-size: cover;             
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.website .right .form{
+    height: 55vh;
+    width: 23vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:  'Atkinson Hyperlegible', sans-serif;
+    border-radius: 10px;
+}
+.website .right input{
+    padding: 5px 7px;
+    width: 90%;
+    border-radius: 3px;
+}
+.website .right .form div{
+    margin: 5px 0;
+    font-size: 14px;
+}
+.radio .child{
+    display: flex;
+align-items: center;
+padding-right: 6px;
+}
+.radio .parent{
+    display: flex;
+align-items: center;
+}
+.radio label{
+    margin: 0 8px;
+}
+.radio{
+    position: relative;
+    right: 107px;
+    bottom: 17px;
+}
+
+.form .verify .btn-verify{
+    background-color: #907dd7;
+    color: white;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.form .heading{
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+.big-text{
+    font-weight: bolder;
+    font-size: 27px;
+    margin: 5px 0;
+}
+.small-text{
+    font-size: 14px;
+}
+
+.margin{
+    width: 80%;
+    margin: auto;
+}
+
+.website .left{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-family:  'Atkinson Hyperlegible', sans-serif;
+
+}
+.website .left .left-content{
+    width: 80%;
+    color: white;
+    font-size: 33px;
+    margin: 10px 0;
+}
+.website .left .left-sub{
+    width: 80%;
+    color: white;
+}
+.lines{
+    display: flex;
+align-items: center;
+height: 30px;
+width: 30px;
+justify-content: space-between;
+margin-top: 30px;
+}
+.line1{
+    width: 15px;
+height: 7px;
+background-color: #423f3f;
+border-radius: 4px;
+cursor: pointer;
+}
+.line2{
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.mobile{
+    background-color: #907dd7;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+}
+.mobile .left{
+    height: 45%;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:  'Atkinson Hyperlegible', sans-serif;
+    color: white;
+}
+.mobile .left .left-content{
+    width: 80%;
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.mobile .left .left-sub{
+    width: 80%;
+    color: white;
+    font-size: 12px;
+}
+
+.mobile .right{
+    height: 55%;
+    background: url("../img/desktop.png");
+    background-size: cover;             
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile .right .form{
+    height: 42vh;
+    width: 18vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:  'Atkinson Hyperlegible', sans-serif;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.mobile .right .form .form-heading{
+    display: flex;
+flex-direction: column;
+align-items: center;
+    max-width: 90%;
+}
+.mobile .right .form .small{
+    font-size: 13px;
+margin: 7px 0;
+width: 90%;
+}
+.mobile .right .form .big{
+    font-size: 18px;
+}
+.mobile .right form{
+    width: 80%;
+}
+.mobile .right input{
+    padding: 5px 7px;
+    width: 100%;
+    border-radius: 3px;
+}
+.mobile .right .form div{
+    margin: 3px 0;
+font-size: 10px;
+}
+
+.mobile .right .mbl-btn-verify{
+    background-color: #907dd7;
+color: white;
+width: 129px;
+height: 27px;
+border-radius: 10px;
+cursor: pointer;
+font-size: 11px;
+}
+.mobile .form .mbl-radio{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+right: 85px;
+top: 4px;
+margin: 6px 0;
+}
+.mobile .form .mbl-radio .parent{
+    display: flex;
+}
+.mobile .form .mbl-radio .child{
+    display: flex;
+    padding-right: 6px;
+}
+.mobile .form .mbl-radio .parent label{
+    margin-left: 5px;
+}
+.mobile .form .mbl-radio .child label{
+    margin-left: 5px;
+}
+.burger{
+    display: none;
+}
+.navigation .button a{
+    color: white;
+    text-decoration: none;
+}
